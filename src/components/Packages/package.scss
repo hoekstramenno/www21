@@ -1,0 +1,25 @@
+.package {
+    cursor: pointer;
+    img {
+        background-color: white;
+    }
+
+    &.is-active {
+        //background-color: black;
+        color: white;
+        border-color: white;
+
+        .ikea-card {
+            background-color: black;
+        }
+    }
+
+    h3 {
+        margin: 0;
+        font-size: 22px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+    }
+
+}

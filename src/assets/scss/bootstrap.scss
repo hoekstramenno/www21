@@ -1,0 +1,22 @@
+$font-family-base: 'Noto Sans', sans-serif;
+$font-size-base: 0.9rem;
+$container-max-widths: (
+        sm: 540px,
+        md: 760px,
+        lg: 960px,
+        xl: 1140px
+) !default;
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        max-height: 100%;
+        min-width: 100%;
+        object-fit: contain;
+        vertical-align: bottom;
+    }
+}
